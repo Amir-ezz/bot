@@ -3,7 +3,7 @@ import numpy as np
 import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-%pip install tflearn
+pip install tflearn
 import tflearn
 import tensorflow as tf
 import pickle
