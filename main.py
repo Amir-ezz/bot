@@ -4,7 +4,8 @@ import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import tensorflow as tf
-from tensorflow.python.util.nest import is_sequence
+from tensorflow.python.util.nest import is_sequence as ignore_is_sequence
+
 
 import tflearn
 
