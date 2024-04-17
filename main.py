@@ -14,7 +14,7 @@ import json
 nltk.download('punkt')
 stemmer = LancasterStemmer()
 
-# Load the pickled data
+
 with open("data.pickle", "rb") as f:
     words, labels, training, output = pickle.load(f)
 
