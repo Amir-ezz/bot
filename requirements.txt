@@ -1,3 +1,4 @@
 nltk
 tflearn
 tensorflow
+is_sequence
