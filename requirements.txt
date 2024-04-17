@@ -2,3 +2,4 @@ nltk
 tflearn
 tensorflow
 tensorflow.python.util.nest
+#from tensorflow.python.util.nest import is_sequence
