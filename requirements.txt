@@ -1,2 +1,3 @@
 nltk
 tflearn
+tensorflow
