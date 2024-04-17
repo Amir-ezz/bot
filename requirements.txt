@@ -1,3 +1,4 @@
 nltk
 tflearn
 tensorflow
+tensorflow.python.util.nest
