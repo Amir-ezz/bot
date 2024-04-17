@@ -3,7 +3,6 @@ import numpy as np
 import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-from tensorflow.python.util import is_sequence
 import tflearn
 import tensorflow as tf
 import pickle
