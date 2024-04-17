@@ -3,21 +3,8 @@ import numpy as np
 import random
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-import importlib
-
-# حاول استيراد tensorflow
-try:
-    import tensorflow as tf
-except ImportError:
-    # إذا فشل الاستيراد، قم بتعريف tf ك None
-    tf = None
-
-# استيراد is_sequence إذا كانت tensorflow متوفرة
-if tf is not None:
-    from tensorflow.python.util.nest import is_sequence
-else:
-    # يمكنك القيام بإجراء آخر في حالة عدم توفر tensorflow
-    pass
+import tensorflow as tf
+from tensorflow.python.util.nest import is_sequence
 
 import tflearn
 
